@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated results
+results/
+*.pcap
+*.pcapng
+*.csv
+*.joblib
+*.pkl
+installed_versions.txt
+
+# System
+.DS_Store
+Thumbs.db
